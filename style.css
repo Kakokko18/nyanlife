@@ -1,0 +1,375 @@
+@charset "UTF-8";
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+#top {
+    height: 500px;
+    background-color: #FFFFFF;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    padding: 0;
+}
+#top .wideslider {
+    background-color: #E5F0D1;
+    margin-bottom: 40px;
+	margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+}
+
+#top h1 {
+    width: 1024px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    padding: 0;
+}
+#top img {
+    padding-left: 362px;
+    padding-right: 362px;
+}
+.image {
+    height: 50px;
+}
+.image h1 {
+    width: 1024px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    padding: 0;
+}
+.image h1 img {
+    padding-left: 362px;
+    padding-right: 362px;
+}
+
+
+#globalnav {
+    height: 90px;
+    width: 1024px;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 60px;
+    text-align: center;
+}
+
+
+#globalnav ul li {
+    display: inline;
+}
+
+ul li img {
+    margin-top: 10px;
+    margin-right: 40px;
+    text-align: center;
+}
+#con-cafe {
+    height: 360px;
+    margin-bottom: 80px;
+    background-color: #E5F0D1;
+    margin-top: 60px;
+}
+#con-cafe p {
+    width: 1024px;
+	margin: 0 auto;
+    padding: 0;
+}
+#con-cafe p img {
+    position: relative;
+}
+#wrapper {
+    width: 1024px;
+	margin: 0 auto;
+    padding: 0;
+}
+#con-treat {
+    height: 350px;
+    float: left;
+    width: 400px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    background-color: #FFFFFF;
+    margin-bottom: 80px;
+}
+#con-treat img {
+    padding-left: 40px;
+}
+#con-treat p {
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 20px;
+    margin-top: 0px;
+}
+#con-map {
+    width: 624px;
+    height: 350px;
+    float: right;
+    background-color: #7A1113;
+    margin-bottom: 80px;
+}
+body footer {
+    height: 240px;
+    float: none;
+    clear: both;
+    background-color: #E6F0D1;
+    width: auto;
+    margin-top: 80px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#wrapper2 {
+    width: 1024px;
+	margin: 0 auto;
+    padding: 0;
+}
+#wrapper2 table {
+    margin-bottom: 20px;
+}
+#wrapper2 nav {
+    margin-left: 10px;
+    font-family: "ＭＳ ゴシック", "MS Gothic", "Osaka－等幅", Osaka-mono, monospace;
+}
+#wrapper2 nav ul {
+    display: inline;
+    margin-left: 5px;
+    text-decoration: underline;
+    margin-bottom: 40px;
+}
+#contents {
+    width: 1024px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    padding: 0;
+    margin-top: 60px;
+}
+#contents h1 {
+    background-color: #E6F0D1;
+    text-align: center;   
+	margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+	width: 1024px;
+}
+#contents #point img {
+    margin-left: 497px;
+    margin-right: 497px;
+}
+tr td h2 {
+    text-align: center;
+}
+tr td h3 {
+    text-align: center;
+    font-size: medium;
+}
+tr td #cat {
+    text-align: center;
+}
+
+
+
+#contents p {
+    margin-bottom: 50px;
+}
+#contents #setumei {
+    text-align: center;
+}
+
+#contents #content2 {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+    width: 1024px;
+    margin-bottom: 0px;
+}
+#attention {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+    width: 800px;
+    margin-top: 80px;
+}
+#attention p {
+    margin-top: 40px;
+    color: #398759;
+}
+#contents #time {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+    width: 900px;
+}
+#contents #timeleft {
+    width: 400px;
+    float: left;
+    margin-right: 50px;
+}
+#contents #timeright {
+    width: 400px;
+    float: right;
+    margin-left: 50px;
+}
+#drink {
+    width: 1024px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+
+tr td p {
+    font-size: small;
+}
+table,th,td {
+    border: none;
+}
+#contents #shopleft {
+    width: 512px;
+    float: left;
+}
+#contents #shopimage {
+    float: right;
+    margin-top: 30px;
+}
+
+
+/*上バー*/
+.bl_sliderBlock{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+.el_menuSliderCounter{
+    padding: 10px 0 0;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 0.2em;
+}
+ 
+.slick-initialized .slick-slide{
+    position: relative;
+}
+ 
+.bl_sliderBlock_slide > img{
+    width: 100%;
+    max-width: 1024px;
+}
+ 
+/*スライダー送り矢印のCSS*/
+.slider-arrow{
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+    top: calc(50%);
+    transform: translateY(-50%);
+}
+ 
+.slider-arrow.slider-prev{
+    left: calc((100% - 800px)/2 - 30px);
+    transform: translate(-100%,-50%);
+}
+
+
+
+@media screen and (max-width: 640px){
+    .slider-arrow.slider-prev{
+        transform: translate(0,-50%);
+        left: 20px; 
+    }
+}
+ 
+.slider-arrow.slider-next{
+    right: calc((100% - 800px)/2 - 30px);
+    transform: translate(100%,-50%);
+}
+@media screen and (max-width: 640px){
+    .slider-arrow.slider-next{
+        transform: translate(0,-50%);
+        right: 20px;    
+    }
+}
+ 
+.slider-arrow img{
+    width: 35px;
+    height: 50px;
+}
+.lead-form{
+  text-align: center;
+  font-size:20px;
+}
+form{
+  margin-top: 50px;
+  padding: 0;
+}
+.item{
+  width: 550px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto
+}
+.label{
+  float: left;
+  margin-right: 20px;
+  width:135px;
+  border-left: solid 3px #8AB432;
+  padding-left: 10px;
+}
+.inputs{
+  float: left;
+  width:300px;
+}
+input[type="text"],input[type="email"]{
+  border: solid 1px #aaa;
+  border-radius:5px;
+  padding:10px;
+  font-size: 15px;
+}
+textarea{
+  border: solid 1px #aaa;
+  border-radius:5px;
+  padding: 10px;
+  height: 160px;
+  font-size: 15px;
+}
+.btn-area{
+  text-align: center;
+}
+input[type="submit"]{
+    background: #8AB432;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-top: 0;
+    margin-right: 5px;
+    margin-left: 30px;
+    margin-bottom: 0;
+    border-radius: 4px;
+}
+input[type="reset"] {
+    background: #aaa;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-top: 0;
+    margin-right: 5px;
+    margin-left: 111px;
+    margin-bottom: 0;
+    border-radius: 4px;
+}
+a:link { color: #256419; }
+a:visited { color: #C66466; }
+a:hover { color: #B70104; }
